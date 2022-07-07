@@ -22,4 +22,4 @@ Inicio
 						Escreva("Os gados do pasto número 1 são:", pasto1)
 						Escreva("Os gados do pasto número 2 são:", pasto2)
 
-Fi
+Fim
