@@ -1,6 +1,6 @@
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 struct produto{
 	int codigo;
 	char nome[100];
