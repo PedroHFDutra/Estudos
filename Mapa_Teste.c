@@ -11,10 +11,11 @@ int loteVacina = 0 ;
 int codigo_pessoa = 0;
 
 void listarAplicacao(){
+	int opcao_menu = 0;
 	int conta;
 	int conta2 = cpf[100];
 	printf("Confira as aplicações cadastradas:\n");
-		for(conta = 0; conta < conta2; conta++){
+		do{
 			printf("Código:%d\n", (codigo_pessoa+1));
 			printf("Nome:%s\n", nomeCivil);
 			printf("CPF:%s\n", cpf);
@@ -22,13 +23,13 @@ void listarAplicacao(){
 			printf("Data:%s\n", dataVacinacao);
 			printf("Número do Lote:%d\n", loteVacina);
 			printf("=================================\n");
-	}
+	}while(opcao_menu != 4);
 }
 
 
 int main(int argc, char *argv[]) {
-    setlocale(LC_ALL, "Portuguese")
-    int cont = 0;
+    setlocale(LC_ALL, "Portuguese");
+    int cont;
     int cont2;
   	int opcao_menu = 0;
   	char consultaCpf[100] = "cpf[100]";
