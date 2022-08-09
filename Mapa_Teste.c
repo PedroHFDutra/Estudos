@@ -1,4 +1,3 @@
-//On working
 
 #include <stdio.h>
 #include <stdlib.h>
